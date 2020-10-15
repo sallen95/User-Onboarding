@@ -86,7 +86,7 @@ function App() {
         errors={formErrors}
       />
       <div>
-        <pre>{JSON.stringify(formValues)}</pre>
+        <pre>{JSON.stringify(users)}</pre>
       </div>
     </div>
   );
