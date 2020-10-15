@@ -56,7 +56,7 @@ function FormComponent (props) {
                 </label><br/>
             </div>
             <div className='form-submit'>
-                <button disabled={disabled}>submit</button>
+                <button id='submitButton' disabled={disabled}>submit</button>
             </div>
             <div className='errors'>
                 <div>{errors.name}</div>
